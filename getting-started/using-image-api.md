@@ -45,7 +45,6 @@ The create image endpoint accepts the following parameters.
 |:-------------|:------------------|:------|
 | **template**<span class="text-red-200">*</span>           | `String`  | This is the unique template id |
 
-{% include hint.md title="Required params" text="For creating an image, `template` is required. All other parameters are optional." %}
 
 <hr>
 
