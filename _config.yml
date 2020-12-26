@@ -1,5 +1,5 @@
 remote_theme: pmarsceill/just-the-docs
-logo: "bruzu-logo.png"
+logo: "/bruzu-logo.png"
 
 # Enable or disable the site search
 # Supports true (default) or false
