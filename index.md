@@ -1,5 +1,5 @@
 ---
-title: Auto generate images using simple Image API
+title: Simple Image API
 layout: default
 nav_order: 1 
 ---
