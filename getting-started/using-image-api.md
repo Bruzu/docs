@@ -111,5 +111,3 @@ Query parameters can be added to the URL to adjust your image.
 | **download**     | `Integer` | Set `download=1` and the image will be served as a downloadable attachment. |
 
 <hr>
-
-{% include code_footer.md version=1 %}
