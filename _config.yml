@@ -1,7 +1,4 @@
-
-
 remote_theme: pmarsceill/just-the-docs
-logo: "/assets/images/bruzu-logo.png"
 
 # Enable or disable the site search
 # Supports true (default) or false
@@ -39,7 +36,6 @@ search:
 aux_links_new_tab: true
 
 
-
 plugins:
   - jekyll-sitemap
   - jekyll-octicons
@@ -53,15 +49,11 @@ gh_edit_repository: "https://github.com/bruzu/docs" # the github URL for your re
 gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "tree"
 
-footer_content: "Bruzu.com <br> &copy; 2021 Bruzu."
+footer_content: "Bruzu.com <br> &copy; 2021 Bruzu.<style> .site-footer{ display:none; } </style>"
 
 # Back to top link
 back_to_top: true
 back_to_top_text: "Back to top"
-
-# ga_tracking: UA-32961413-2
-search:
-  heading_level: 4
 
 # Aux links for the upper right navigation
 aux_links:
