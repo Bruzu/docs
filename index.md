@@ -21,7 +21,7 @@ The API for automatically generate high quality images.
 
 <hr>
 
-<div class="code-example" markdown="1">
+<div class="code-example flex-justify-between" markdown="1">
 <img src="https://img.bruzu.com/?template=9&middle.text=So%20simple,%20sounds%20illegal&backgroundImage.src=https://source.unsplash.com/hxGP_QuC6yY/500x500"><br />
 [Edit it on live demo](https://bruzu.com/?template=9&middle.text=So%20simple,%20sounds%20illegal&backgroundImage.src=https://source.unsplash.com/hxGP_QuC6yY/500x500){: .btn }
 
