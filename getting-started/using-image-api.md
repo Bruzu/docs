@@ -45,19 +45,19 @@ The create image endpoint accepts the following parameters.
 |:-------------|:------------------|:------|
 | **template**<span class="text-red-200">*</span>           | `String`  | This is the unique template id |
 
+### objectName.propertyName=propertyValue
 
-<hr>
+API support variables in form of {% raw %} objectName.propertyName=Value {% endraw %}.
 
-### Additional parameters
+The object (element) value gets replaced with the passed value like while creating your image.
 
-Optional parameters for greater control over your image.
+### Example
+This image was generated with a template.
 
-| Name        | Type          | Description |
-|:-------------|:------------------|:------|
-| **width**   | `Integer` | Set the width of output image.  |
-| **height**   | `Integer` | Set the height of output image.  |
-| **zoom**   | `Integer` | Set the zoom/scale of output image.  |
-
+```javascript
+https://img.bruzu.com/?template=15&top.text=Reminder&middle.text=This%2520too%2520shall%2520pass&bottom.text=OK
+```
+<img src="https://img.bruzu.com/?template=15&top.text=Reminder&middle.text=This%2520too%2520shall%2520pass&bottom.text=OK">
 
 <hr>
 
@@ -107,6 +107,7 @@ Query parameters can be added to the URL to adjust your image.
 |:-------------|:------------------|:------|
 | **height** | `Integer` | The height of the image. Maximum `2000`. |
 | **width**  | `Integer`  | The width of the image. Maximum `2000`. |
+| **zoom**   | `Integer` | Set the zoom/scale of output image.  |
 | **download**     | `Integer` | Set `download=1` and the image will be served as a downloadable attachment. |
 
 <hr>
