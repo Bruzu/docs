@@ -20,3 +20,12 @@ The API for automatically generate high quality images.
 - Very simple to understand.
 
 <hr>
+
+<div class="code-example" markdown="1">
+<img src="https://img.bruzu.com/?template=9&middle.text=So%20simple,%20sounds%20illegal&backgroundImage.src=https://source.unsplash.com/hxGP_QuC6yY/500x500">
+[Try live](https://bruzu.com/?template=9&middle.text=So%20simple,%20sounds%20illegal&backgroundImage.src=https://source.unsplash.com/hxGP_QuC6yY/500x500){: .btn }
+
+</div>
+```html
+<img src="https://img.bruzu.com/?template=9&middle.text=So%20simple,%20sounds%20illegal&backgroundImage.src=https://source.unsplash.com/hxGP_QuC6yY/500x500">
+```
