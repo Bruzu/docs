@@ -45,6 +45,7 @@ The create image endpoint accepts the following parameters.
 |:-------------|:------------------|:------|
 | **template**<span class="text-red-200">*</span>           | `String`  | This is the unique template id |
 
+
 ### objectName.propertyName=propertyValue
 
 API support variables in form of {% raw %} objectName.propertyName=Value {% endraw %}.
