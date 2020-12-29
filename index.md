@@ -8,7 +8,8 @@ nav_order: 1
 {: .fs-9 }
 
 
-A very simple yet powerful image generation API. The Bruzu Image API returns an image in response to a URL GET request. {: .fs-6 .fw-300 }
+A very simple yet powerful image generation API. The Bruzu Image API returns an image in response to a URL GET request.
+{: .fs-6 .fw-300 }
 
 
 Bruzu Image API allows you to create dynamic images using nothing more than a URL string. To see it in action, just paste this URL into your browser's address bar:
