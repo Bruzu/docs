@@ -10,6 +10,14 @@ nav_order: 1
 A very simple yet powerful image generation API.
 {: .fs-6 .fw-300 }
 
+Bruzu Image API allows you to create dynamic images using nothing more than a URL string. To see it in action, just paste this URL into your browser's address bar:
+
+```
+https://img.bruzu.com/?template=9&middle.text=Dynamic%20text
+```
+
+Now try changing the text from "Dynamic text" to your name. 
+
 [Live demo](https://bruzu.com/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Get an API Key](https://bruzu.com){: .btn .fs-5 .mb-4 .mb-md-0 }
 <hr>
