@@ -34,7 +34,7 @@ Table of contents
 To generate an image, make an HTTP request to the API.
 
 <pre class="http-method fs-4">
-  <span>get</span> https://img.bruzu.com<b>/?template=...</b>
+  <span>GET</span> https://img.bruzu.com<b>/?template=...</b>
 </pre>
 
 ### Parameters
