@@ -64,11 +64,11 @@ https://img.bruzu.com/?template=15&top.text=Reminder&middle.text=This%2520too%25
 
 ### Example responses
 ```
-STATUS: 201 CREATED
-```
+HTTP/1.1 200 OK
+Content-Type: image/png
 
-```javascript
-BINARY IMAGE DATA
+...png document bytes
+
 ```
 
 ```
