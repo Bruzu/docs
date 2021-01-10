@@ -25,9 +25,12 @@ Table of contents
 <hr>
 
 ## Authentication
-(Coming soon)
 
-- API Key.
+If you want to remove the watermark from your images, you can get an API key by clicking *Get API key* link on home page. 
+
+- You need to pass the API key same as other parameters.
+- Keep you API Key secure. If exposed, it could be used to call API using your account.
+
 
 ## Creating an image
 
@@ -43,6 +46,7 @@ The create image endpoint accepts the following parameters.
 
 | Name        | Type          | Description |
 |:-------------|:------------------|:------|
+| **apiKey**           | `String`  | API key of your account |
 | **template**<span class="text-red-200">*</span>           | `String`  | This is the unique template id |
 
 
@@ -100,7 +104,7 @@ STATUS: 429 TOO MANY REQUESTS
 The API supports `png` for now. you'll get back a png by default.
 
 
-### Query parameters
+### Additional Query parameters
 
 Query parameters can be added to the URL to adjust your image.
 
