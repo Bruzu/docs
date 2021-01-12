@@ -1,4 +1,4 @@
-title: Bruzu: Dynamically generate Images with URL string
+title: "Bruzu : Dynamically generate Images with URL string"
 email: support@htmlcsstoimage.com
 description: >- # this means to ignore newlines until "baseurl:"
   A very simple yet powerful image generation API. The Bruzu Image API returns an image in response to a URL GET request.
