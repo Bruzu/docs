@@ -31,11 +31,8 @@ For more details on how this works, see [Creating an image](/getting-started/usi
 
 ```ruby
 # Replace YOUR_API_KEY and TEMPLATE_ID with proper values
-curl -X GET https://img.bruzu.com \
-     -d apiKey=YOUR_API_KEY \
-     -d template=TEMPLATE_ID \
-     .....OTHER_PARAMETERS.... \ 
-     -o "output.png"
+curl "https://img.bruzu.com/?template=9&apiKey=&otherParameters" \
+    -o "output.png"
 ```
 
 ## Response
