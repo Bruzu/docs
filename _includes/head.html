@@ -1,0 +1,36 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  {% unless site.plugins contains "jekyll-seo-tag" %}
+    <title>{{ page.title }} - {{ site.title }}</title>
+
+    {% if page.description %}
+      <meta name="Description" content="{{ page.description }}">
+    {% endif %}
+  {% endunless %}
+
+  <link rel="shortcut icon" href="{{ 'favicon.ico' | absolute_url }}" type="image/x-icon">
+
+  <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-default.css' | absolute_url }}">
+ {% if site.search_enabled != false %}
+    <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"></script>
+  {% endif %}
+  <script type="text/javascript" src="{{ '/assets/js/just-the-docs.js' | relative_url }}"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@bruzuHQ">
+  <meta name="twitter:title" content="{{ page.title }}">
+  {% if page.description %}
+    <meta name="twitter:description" content="{{ page.description }}">
+  {% else %}
+    <meta name="twitter:description" content="Dynamically generate Images with a URL string. ">
+  {% endif %}
+  <meta name="twitter:image" content="https://img.bruzu.com/?template=20&middle.text=Automate%20Your%20Graphic%20Designing%0AUsing%20Powerful%20but%20simple%20API.%0ASelect%20a%20template.%0AFill%20in%20the%20details.%0AGet%20Image%20URL">
+  <meta name="og:image" content="https://img.bruzu.com/?template=20&middle.text=Automate%20Your%20Graphic%20Designing%0AUsing%20Powerful%20but%20simple%20API.%0ASelect%20a%20template.%0AFill%20in%20the%20details.%0AGet%20Image%20URL">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  {% seo %}
+
+</head>
