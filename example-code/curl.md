@@ -30,7 +30,7 @@ Run this command in your terminal to generate an image using the API.
 For more details on how this works, see [Creating an image](/getting-started/using-the-api#creating-an-image).
 
 ```ruby
-# Replace UserID and APIKey with your credentials from the dashboard https://htmlcsstoimage.com/dashboard
+# Replace YOUR_API_KEY and TEMPLATE_ID with proper values
 curl -X GET https://img.bruzu.com \
      -d apiKey=YOUR_API_KEY \
      -d template=TEMPLATE_ID \
