@@ -9,7 +9,7 @@ has_children: true
 {: .no_toc }
 {: .fs-9 }
 
-Start creating quickly, take a look at our example code for generating the Image API.
+Start creating quickly, take a look at our example codes to generate images.
 {: .fs-4 .fw-300 }
 
 [Live demo](https://bruzu.com/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
