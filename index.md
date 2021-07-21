@@ -50,5 +50,5 @@ The API to automatically generate high quality images.
 
 </div>
 ```html
-<img src=" https://img.bruzu.com/?backgroundImage=https://source.unsplash.com/U-Kty6HxcQc/500x500&a.text=If you must pivot your company, take both feet off the ground, and jump.&a.color=white&a.fontFamily=Poppins&a.fontWeight=800&a.width=450&b.text=@naval&b.width=100&b.height=33&b.top=450&b.color=white&b.fontFamily=Playfair Display&b.fontSize=30">
+<img src="https://img.bruzu.com/?backgroundImage=https://source.unsplash.com/U-Kty6HxcQc/500x500&a.text=If you must pivot your company, take both feet off the ground, and jump.&a.color=white&a.fontFamily=Poppins&a.fontWeight=800&a.width=450&b.text=@naval&b.width=100&b.height=33&b.top=450&b.color=white&b.fontFamily=Playfair Display&b.fontSize=30">
 ```
