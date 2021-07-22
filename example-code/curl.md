@@ -30,7 +30,7 @@ Run this command in your terminal to generate an image using the API.
 For more details on how this works, see [Creating an image](/getting-started/using-the-api#creating-an-image).
 
 ```ruby
-# Replace YOUR_API_KEY and TEMPLATE_ID with proper values
+# Replace YOUR_API_KEY and otherParameters etc with proper values
 curl "https://img.bruzu.com/?a.text=......&apiKey=YOUR_API_KEY&otherParameters" \
     -o "output.png"
 ```
