@@ -30,7 +30,9 @@ You can download the image by opening the URL directly in your browser, or point
 # API URL structure
 {: .fs-9 }
 
-All URLs start with `https://img.bruzu.com/?` followed by the parameters that specify image data and appearance. Parameters are `rootPropertyName=propertyValue` and `elementName.propertyName=propertyValue` pairs, separated by an ampersand character `(&)`, and parameters can be in any order. 
+All URLs start with `https://img.bruzu.com/?` followed by the parameters that specify image data and appearance. 
+
+Parameters are `rootPropertyName=propertyValue` and `elementName.propertyName=propertyValue` pairs, separated by an ampersand character `(&)`, and parameters can be in any order. 
 
 Element names can vary form `a` to `z`, You can specify as many additional elements with properties.
 
