@@ -40,7 +40,7 @@ To generate an image, make an HTTP request to the API.
   <span>GET</span> https://img.bruzu.com<b>/?...</b>
 </pre>
 
-### Parameters
+### Root Parameters
 
 The create image endpoint accepts the following parameters.
 
@@ -60,7 +60,10 @@ The create image endpoint accepts the following parameters.
 
 Element names can vary form `a` to `z`, You can specify many elements with properties like `a.text` or `b.src` etc.
 
-### Every Type of Element have these properties
+### Default Element and properties
+Root Element all type of other elements inherit from.
+
+Every Type of Element have these properties
 
 | Name        | Type          | Description | Default value |
 |:-------------|:------------------|:------|:--------|
@@ -85,7 +88,7 @@ Element names can vary form `a` to `z`, You can specify many elements with prope
 | `[a-z]`.**flipX**           | `Boolean`  |  When true, an object is rendered as flipped horizontally.  | `false`|
 | `[a-z]`.**flipY**           | `Boolean`  |   When true, an object is rendered as flipped vertically.  | `false`|
 
-### Textbox Element
+### Textbox Element and properties
 
 You can define and element type text by using `[a-z].type=textbox` or `[a-z].text={any text}`.
 Textbox Element have these extra properties.
@@ -106,7 +109,7 @@ Textbox Element have these extra properties.
 
 
 
-### Image Element
+### Image Element and properties
 
 You can define and element type text by using `[a-z].type=image` or `[a-z].src={url link to the image}`.
 Image Element have these extra properties.
@@ -117,7 +120,7 @@ Image Element have these extra properties.
 | `[a-z]`.**cropX**   | `Number`  |   Image crop in pixels from original image size.  | `0` |
 | `[a-z]`.**cropY**   | `Number`  |    Image crop in pixels from original image size.  | `0` |
 
-### Rectangle Element
+### Rectangle Element and properties
 
 You can define and element type text by using `[a-z].type=rect`.
 Rectangle Element have these extra properties.
@@ -127,7 +130,7 @@ Rectangle Element have these extra properties.
 | `[a-z]`.**rx**   | `Number`  |    Horizontal border radius.  | `0` |
 | `[a-z]`.**cropY**   | `Number`  |   Vertical border radius.  | `0` |
 
-### Circle Element
+### Circle Element and properties
 
 You can define and element type text by using `[a-z].type=circle`.
 Rectangle Element have these extra properties.
@@ -137,7 +140,7 @@ Rectangle Element have these extra properties.
 | `[a-z]`.**radius**   | `Number`  |    Radius of this circle.  | `0` |
 
 
-### Line Element
+### Line Element and properties
 
 You can define and element type text by using `[a-z].type=circle`.
 Rectangle Element have these extra properties.
@@ -150,7 +153,7 @@ Rectangle Element have these extra properties.
 | `[a-z]`.**y2**   | `Number`  |     y value or second line edge    | `0` |
 
 
-### Triangle Element
+### Triangle Element and properties
 
 You can define and element type text by using `[a-z].type=triangle`.
 Triangle Element have these extra properties.
@@ -241,7 +244,5 @@ STATUS: 429 TOO MANY REQUESTS
 ### File formats
 
 The API supports `png` for now. you'll get back a png by default.
-
-
 
 <hr>
