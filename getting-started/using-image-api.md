@@ -56,11 +56,11 @@ The create image endpoint accepts the following parameters.
 | **download**     | `Integer` | Set `download=1` and the image will be served as a downloadable attachment. |
 
 
-### Aditional Parameters
+### Element Parameters
 
 Element names can vary form `a` to `z`, You can specify many elements with properties like `a.text` or `b.src` etc.
 
-## Every Type of Element have these properties
+### Every Type of Element have these properties
 
 | Name        | Type          | Description | Default value |
 |:-------------|:------------------|:------|:--------|
@@ -84,6 +84,33 @@ Element names can vary form `a` to `z`, You can specify many elements with prope
 | `[a-z]`.**strokeWidth**           | `Number`  |     Width of border.    | `0`|
 | `[a-z]`.**flipX**           | `Boolean`  |  When true, an object is rendered as flipped horizontally.  | `false`|
 | `[a-z]`.**flipY**           | `Boolean`  |   When true, an object is rendered as flipped vertically.  | `false`|
+
+### Textbox Element
+
+You can define and element type text by using `[a-z].type=textbox` or `[a-z].text={any text}`.
+Textbox have these extra properties.
+
+| Name        | Type          | Description | Default value |
+|:-------------|:------------------|:------|:--------|
+| `[a-z]`.**textAlign**           | `String`  | Text alignment. Possible values: `left`, `center`, `right`, `justify`, `justify-left`, `justify-center` or `justify-right`. | `justify` |
+| `[a-z]`.**fontSize**   | `Number`  |  Font size (in pixels). | `40` |
+| `[a-z]`.**fontFamily**   | `String`  |   Font family name ( We support all the Google fonts) | `Times New Roman` |
+| `[a-z]`.**fontStyle**   | `String`  |    Font style . Possible values: "", "normal", "italic" or "oblique".  | `normal` |
+| `[a-z]`.**fontWeight**   | `Number|String`  |     Font weight (e.g. bold, normal, 400, 600, 800)   | `normal` |
+| `[a-z]`.**charSpacing**   | `Number`  |      Additional space between characters expressed in thousands of em unit    | `0` |
+| `[a-z]`.**lineHeight**   | `Number`  |      Line height     | `1.16` |
+| `[a-z]`.**linethrough**   | `Boolean`  |     Text decoration linethrough.      | `false` |
+| `[a-z]`.**overline**   | `Boolean`  |      Text decoration overline.       | `false` |
+| `[a-z]`.**underline**   | `Boolean`  |      Text decoration underline.       | `false` |
+| `[a-z]`.**textBackgroundColor**   | `String`  |     Background color of text lines    | `transparent` |
+
+
+
+### Image Element
+
+
+
+
 
 
 ### Example
