@@ -88,7 +88,7 @@ Element names can vary form `a` to `z`, You can specify many elements with prope
 ### Textbox Element
 
 You can define and element type text by using `[a-z].type=textbox` or `[a-z].text={any text}`.
-Textbox have these extra properties.
+Textbox Element have these extra properties.
 
 | Name        | Type          | Description | Default value |
 |:-------------|:------------------|:------|:--------|
@@ -108,9 +108,57 @@ Textbox have these extra properties.
 
 ### Image Element
 
+You can define and element type text by using `[a-z].type=image` or `[a-z].src={url link to the image}`.
+Image Element have these extra properties.
+
+| Name        | Type          | Description | Default value |
+|:-------------|:------------------|:------|:--------|
+| `[a-z]`.**src**           | `String`  | Image url. | `null` |
+| `[a-z]`.**cropX**   | `Number`  |   Image crop in pixels from original image size.  | `0` |
+| `[a-z]`.**cropY**   | `Number`  |    Image crop in pixels from original image size.  | `0` |
+
+### Rectangle Element
+
+You can define and element type text by using `[a-z].type=rect`.
+Rectangle Element have these extra properties.
+
+| Name        | Type          | Description | Default value |
+|:-------------|:------------------|:------|:--------|
+| `[a-z]`.**rx**   | `Number`  |    Horizontal border radius.  | `0` |
+| `[a-z]`.**cropY**   | `Number`  |   Vertical border radius.  | `0` |
+
+### Circle Element
+
+You can define and element type text by using `[a-z].type=circle`.
+Rectangle Element have these extra properties.
+
+| Name        | Type          | Description | Default value |
+|:-------------|:------------------|:------|:--------|
+| `[a-z]`.**radius**   | `Number`  |    Radius of this circle.  | `0` |
 
 
+### Line Element
 
+You can define and element type text by using `[a-z].type=circle`.
+Rectangle Element have these extra properties.
+
+| Name        | Type          | Description | Default value |
+|:-------------|:------------------|:------|:--------|
+| `[a-z]`.**x1**   | `Number`  |     x value or first line edge   | `0` |
+| `[a-z]`.**y1**   | `Number`  |     y value or first line edge    | `0` |
+| `[a-z]`.**x2**   | `Number`  |     x value or second line edge   | `0` |
+| `[a-z]`.**y2**   | `Number`  |     y value or second line edge    | `0` |
+
+
+### Triangle Element
+
+You can define and element type text by using `[a-z].type=triangle`.
+Triangle Element have these extra properties.
+
+| Name        | Type          | Description | Default value |
+|:-------------|:------------------|:------|:--------|
+| `[a-z]`.**height**   | `Number`  |     Height of triangle   | `100` |
+| `[a-z]`.**width**   | `Number`  |     Width of triangle    | `100` |
 
 
 ### Example
