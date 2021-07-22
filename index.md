@@ -8,11 +8,11 @@ nav_order: 1
 {: .fs-9 }
 
 
-A very simple yet powerful image generation API. The Bruzu Image API returns an image in response to a URL GET request.
+Bruzu Image API is very simple yet powerful Image Generation API.  It returns an image in response to a Query String.
 {: .fs-6 .fw-300 }
 
 
-Bruzu Image API allows you to create dynamic images using nothing more than a URL string. To see it in action, just paste this URL into your browser's address bar:
+To see it in action, just paste this URL into your browser's address bar:
 
 ```
 https://img.bruzu.com/?a.text=Dynamic
@@ -20,7 +20,7 @@ https://img.bruzu.com/?a.text=Dynamic
 
 Now try changing the text from "Dynamic" to your name or anything. 
 
-The API can generate any kind of image, from Social Media or Open Graph to QR codes and Personalized Greetings. 
+The API can generate any kind of image, from Social Media or Open Graph to Personalized Greetings. 
 
 All the information about the image that you want, such as text, color, size and other used images, are part of the URL. 
 
@@ -30,8 +30,9 @@ You can download the image by opening the URL directly in your browser, or point
 https://img.bruzu.com/?backgroundColor=white&a.text=Bruzu&a.textAlign=center&a.fontFamily=Rubik&a.fontSize=120&a.fontWeight=900&a.color=%23D1F93E
 ```
 
-All URLs start with `https://img.bruzu.com/?` followed by the parameters that specify image data and appearance. Parameters are `objectName.propertyName=propertyValue`  pairs, separated by an ampersand character `(&)`, and parameters can be in any order, after the `?`. You can specify as many additional elements with properties.
+All URLs start with `https://img.bruzu.com/?` followed by the parameters that specify image data and appearance. Parameters are `elementName.propertyName=propertyValue`  pairs, separated by an ampersand character `(&)`, and parameters can be in any order, after the `?`. 
 
+Element names can vary form a to z, You can specify as many additional elements with properties.
 
 [Live demo](https://bruzu.com/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Get an API Key](https://bruzu.com){: .btn .fs-5 .mb-4 .mb-md-0 }
@@ -39,8 +40,8 @@ All URLs start with `https://img.bruzu.com/?` followed by the parameters that sp
 
 The API to automatically generate high quality images.
 
-- API that can be used anywhere.
-- Very simple to understand.
+- API that can be used anywhere from webpages to integration into automation tools.
+- Very simple to understand and Easy to use.
 
 <hr>
 
