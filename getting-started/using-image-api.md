@@ -47,27 +47,52 @@ The create image endpoint accepts the following parameters.
 | Name        | Type          | Description |
 |:-------------|:------------------|:------|
 | **apiKey**           | `String`  | API key of your account |
-
-### Root Parametest rootPropertyName=propertyValue
-
-Basic image properties like `height`, `width`, `backgroundColor`, `backgroundImage` etc. 
-
-Query parameters can be added to the URL to adjust your image.
-
-| Name        | Type          | Description |
-|:-------------|:------------------|:------|
 | **height** | `Integer` | The height of the image. Maximum `2000`. Default value is `500` |
 | **width**  | `Integer`  | The width of the image. Maximum `2000`. Default value is `500` |
 | **backgroundColor**  | `String`  |  Background Color of the Image. Default is `none` ( transparent ) |
-| **backgroundImage**  | `String`  | Background Image link. |
+| **backgroundImage**  | `String`  | Background Image url. |
 | **backgroundImage.opacity**  | `Float`  | Opacity or the background image, between 0 and 1. Default value is 1|
 | **scale**   | `Integer` | Set the scale of output image.  |
 | **download**     | `Integer` | Set `download=1` and the image will be served as a downloadable attachment. |
 
 
-### objectName.propertyName=propertyValue
+### Aditional Parameters
 
 Element names can vary form `a` to `z`, You can specify many elements with properties like `a.text` or `b.src` etc.
+
+#### Every Element have these properties
+
+| Name        | Type          | Description | Default value |
+|:-------------|:------------------|:------|:--------|
+| `[a-z]`**type**           | `String`  | Type of element | `textbox`, `image`( if `.src` is given ) |
+| `[a-z]`**angle**           | `Number`  | Angle of rotation of an element (in degrees) | `0`|
+| `[a-z]`**backgroundColor**  | `String`  | Background color of an element. takes css colors, (hax, rgb, rgba or name or color) | `transparent`|
+| `[a-z]`**color**           | `String`  | Color of an element. takes css colors, (hax, rgb, rgba or name or color) | `black`|
+| `[a-z]`**flipX**           | `Boolean`  |  When true, an object is rendered as flipped horizontally.  | `false`|
+| `[a-z]`**flipY**           | `Boolean`  |   When true, an object is rendered as flipped vertically.  | `false`|
+| `[a-z]`**height**           | `Number`  |   Element height   | `(root image height)/2`|
+| `[a-z]`**width**           | `Number`  |   Element width   | `(root image width)/2`|
+| `[a-z]`**width**           | `Number`  |   Element width   | `(root image width)/2`|
+| `[a-z]`**left**           | `Number`  |    Left position of an element. Note that by default it's relative to element center ( This can be changed by changing originX of the element).| `(root image width)/2`|
+| `[a-z]`**top**           | `Number`  |    Top position of an element. Note that by default it's relative to element center. ( This can be changed by changing originY of the element) | `(root image width)/2`|
+
+| `[a-z]`**opacity**           | `Number`  |    Opacity of an element   | `1`|
+| `[a-z]`**originX**           | `String`  |   Horizontal origin of transformation of an element (one of "left", "right", "center")    | `center`|
+| `[a-z]`**originY**           | `String`  |   Vertical origin of transformation of an object (one of "top", "bottom", "center")    | `center`|
+| `[a-z]`**scaleX**           | `Number`  |     Element scale factor (horizontal)    | `1`|
+| `[a-z]`**scaleY**           | `Number`  |     Object scale factor (vertical)   | `1`|
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Example
 This image was generated with a template.
