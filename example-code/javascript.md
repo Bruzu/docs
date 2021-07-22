@@ -17,9 +17,9 @@ This example uses the [axios package](https://www.npmjs.com/package/axios). Inst
 const axios = require('axios'); 
 const fs = require('fs')
 
-// Replace YOUR_API_KEY and TEMPLATE_ID with proper values
+// Replace YOUR_API_KEY and otherParameters etc with proper values
 
-axios.get('https://img.bruzu.com/?template=TEMPLATE_ID&apiKey=YOUR_API_KEY&otherParameters', {responseType: "stream"} )  
+axios.get('https://img.bruzu.com/?apiKey=YOUR_API_KEY&otherParameters', {responseType: "stream"} )  
 .then(response => {  
     // Saving file to working directory  
     response.data.pipe(fs.createWriteStream("output.png"));  
@@ -39,10 +39,10 @@ If you prefer not to install an HTTP library for making the request. This exampl
 const http = require('https');
 const fs = require('fs');
 
-// Replace YOUR_API_KEY and TEMPLATE_ID with proper values
+// Replace YOUR_API_KEY and otherParameters etc with proper values
 
 const file = fs.createWriteStream("output.png");
-const request = http.get("https://img.bruzu.com/?template=TEMPLATE_ID&apiKey=YOUR_API_KEY&otherParameters",
+const request = http.get("https://img.bruzu.com/?apiKey=YOUR_API_KEY&otherParameters",
     function(response) {
         response.pipe(file);
     })
