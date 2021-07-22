@@ -140,6 +140,22 @@ Rectangle Element have these extra properties.
 | `[a-z]`.**radius**   | `Number`  |    Radius of this circle.  | `0` |
 
 
+<div class="code-example flex-justify-between" markdown="1">
+
+<img src="https://img.bruzu.com/?backgroundColor=white&a.type=circle&a.radius=200&a.color=rgb(209%2C249%2C62)"><br />
+[Edit it on live demo](https://bruzu.com/?backgroundColor=white&a.type=circle&a.radius=200&a.color=rgb(209%2C249%2C62)){: .btn }
+
+</div>
+```
+https://img.bruzu.com/
+?backgroundColor=white
+&a.type=circle
+&a.radius=200
+&a.color=rgb(209,249,62)
+```
+
+
+
 ### Line Element and properties
 
 You can define and element type text by using `[a-z].type=circle`.
