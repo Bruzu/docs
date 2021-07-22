@@ -46,7 +46,7 @@ The create image endpoint accepts the following parameters.
 
 | Name        | Type          | Description |
 |:-------------|:------------------|:------|
-| **apiKey**           | `String`  | API key of your account |
+| **apiKey**   | `String`  | API key of your account |
 | **height** | `Integer` | The height of the image. Maximum `2000`. Default value is `500` |
 | **width**  | `Integer`  | The width of the image. Maximum `2000`. Default value is `500` |
 | **backgroundColor**  | `String`  |  Background Color of the Image. Default is `none` ( transparent ) |
@@ -54,6 +54,22 @@ The create image endpoint accepts the following parameters.
 | **backgroundImage.opacity**  | `Float`  | Opacity or the background image, between 0 and 1. Default value is 1|
 | **scale**   | `Integer` | Set the scale of output image.  |
 | **download**     | `Integer` | Set `download=1` and the image will be served as a downloadable attachment. |
+
+
+<div class="code-example flex-justify-between" markdown="1">
+
+<img src="https://img.bruzu.com/?backgroundImage=https%3A%2F%2Fsource.unsplash.com%2FU-Kty6HxcQc%2F600x400&backgroundImage.opacity=0.7&height=400&width=600&backgroundColor=red"><br />
+[Edit it on live demo](https://bruzu.com/?backgroundImage=https%3A%2F%2Fsource.unsplash.com%2FU-Kty6HxcQc%2F600x400&backgroundImage.opacity=0.7&height=400&width=600&backgroundColor=red){: .btn }
+
+</div>
+```
+https://img.bruzu.com/
+?backgroundImage=https://source.unsplash.com/U-Kty6HxcQc/600x400
+&backgroundImage.opacity=0.7
+&height=400
+&width=600
+&backgroundColor=red
+```
 
 
 ### Element Parameters
@@ -88,6 +104,7 @@ Every Type of Element have these properties
 | `[a-z]`.**flipX**           | `Boolean`  |  When true, an object is rendered as flipped horizontally.  | `false`|
 | `[a-z]`.**flipY**           | `Boolean`  |   When true, an object is rendered as flipped vertically.  | `false`|
 
+
 ### Textbox Element and properties
 
 You can define and element type text by using `[a-z].type=textbox` or `[a-z].text={any text}`.
@@ -107,6 +124,21 @@ Textbox Element have these extra properties.
 | `[a-z]`.**underline**   | `Boolean`  |      Text decoration underline.       | `false` |
 | `[a-z]`.**textBackgroundColor**   | `String`  |     Background color of text lines    | `transparent` |
 
+<div class="code-example flex-justify-between" markdown="1">
+
+<img src="https://img.bruzu.com/?backgroundColor=white&a.text=Bruzu&a.textAlign=center&a.fontFamily=Rye&a.fontSize=100&a.color=red"><br />
+[Edit it on live demo](https://bruzu.com/?backgroundColor=white&a.text=Bruzu&a.textAlign=center&a.fontFamily=Rye&a.fontSize=100&a.color=red){: .btn }
+
+</div>
+```
+https://img.bruzu.com/
+?backgroundColor=white
+&a.text=Bruzu
+&a.textAlign=center
+&a.fontFamily=Rye
+&a.fontSize=100
+&a.color=red
+```
 
 
 ### Image Element and properties
@@ -120,6 +152,21 @@ Image Element have these extra properties.
 | `[a-z]`.**cropX**   | `Number`  |   Image crop in pixels from original image size.  | `0` |
 | `[a-z]`.**cropY**   | `Number`  |    Image crop in pixels from original image size.  | `0` |
 
+<div class="code-example flex-justify-between" markdown="1">
+
+<img src="https://img.bruzu.com/?backgroundColor=white&a.type=image&a.src=https%3A%2F%2Fsource.unsplash.com%2F200x300%2F%3Frose&a.height=300&a.width=200"><br />
+[Edit it on live demo](https://bruzu.com/?backgroundColor=white&a.type=image&a.src=https%3A%2F%2Fsource.unsplash.com%2F200x300%2F%3Frose&a.height=300&a.width=200){: .btn }
+
+</div>
+```
+https://img.bruzu.com/
+?backgroundColor=white
+&a.type=image
+&a.src=https://source.unsplash.com/200x300/?rose
+&a.height=300
+&a.width=200
+```
+
 ### Rectangle Element and properties
 
 You can define and element type text by using `[a-z].type=rect`.
@@ -129,6 +176,21 @@ Rectangle Element have these extra properties.
 |:-------------|:------------------|:------|:--------|
 | `[a-z]`.**rx**   | `Number`  |    Horizontal border radius.  | `0` |
 | `[a-z]`.**cropY**   | `Number`  |   Vertical border radius.  | `0` |
+
+<div class="code-example flex-justify-between" markdown="1">
+
+<img src="https://img.bruzu.com/?backgroundColor=white&a.type=Rect&a.height=100&b.width=400&a.color=pink"><br />
+[Edit it on live demo](https://bruzu.com/?backgroundColor=white&a.type=Rect&a.height=100&b.width=400&a.color=pink){: .btn }
+
+</div>
+```
+https://img.bruzu.com/
+?backgroundColor=white
+&a.type=Rect
+&a.height=100
+&b.width=400
+&a.color=pink
+```
 
 ### Circle Element and properties
 
@@ -168,6 +230,24 @@ Rectangle Element have these extra properties.
 | `[a-z]`.**x2**   | `Number`  |     x value or second line edge   | `0` |
 | `[a-z]`.**y2**   | `Number`  |     y value or second line edge    | `0` |
 
+<div class="code-example flex-justify-between" markdown="1">
+
+<img src="https://img.bruzu.com/?backgroundColor=black&a.type=line&a.x1=20&a.y1=20&a.x2=200&a.y2=200&a.stroke=pink&a.strokeWidth=2"><br />
+[Edit it on live demo](https://bruzu.com/?backgroundColor=black&a.type=line&a.x1=20&a.y1=20&a.x2=200&a.y2=200&a.stroke=pink&a.strokeWidth=2){: .btn }
+
+</div>
+```
+https://img.bruzu.com/
+?backgroundColor=black
+&a.type=line
+&a.x1=20
+&a.y1=20
+&a.x2=200
+&a.y2=200
+&a.stroke=pink
+&a.strokeWidth=2
+```
+
 
 ### Triangle Element and properties
 
@@ -178,6 +258,21 @@ Triangle Element have these extra properties.
 |:-------------|:------------------|:------|:--------|
 | `[a-z]`.**height**   | `Number`  |     Height of triangle   | `100` |
 | `[a-z]`.**width**   | `Number`  |     Width of triangle    | `100` |
+
+<div class="code-example flex-justify-between" markdown="1">
+
+<img src="https://img.bruzu.com/?backgroundColor=white&a.type=triangle&a.width=300&a.height=200&a.color=pink"><br />
+[Edit it on live demo](https://bruzu.com/?backgroundColor=white&a.type=triangle&a.width=300&a.height=200&a.color=pink){: .btn }
+
+</div>
+```
+https://img.bruzu.com/
+?backgroundColor=white
+&a.type=triangle
+&a.width=300
+&a.height=200
+&a.color=pink
+```
 
 
 ### Example
