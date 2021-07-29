@@ -87,8 +87,8 @@ Every Type of Element have these properties
 | `[a-z]`.**angle**           | `Number`  | Angle of rotation of an element (in degrees) | `0`|
 | `[a-z]`.**color**           | `String`  | Color of an element. takes css colors, (hax, rgb, rgba or name or color) | `black`|
 | `[a-z]`.**backgroundColor**  | `String`  | Background color of an element. takes css colors, (hax, rgb, rgba or name or color) | `transparent`|
-| `[a-z]`.**height**           | `Number`  |   Element height   | `(root image height)/2`|
-| `[a-z]`.**width**           | `Number`  |   Element width   | `(root image width)/2`|
+| `[a-z]`.**height**           | `Number`  |   Element height   | `60% of root image height`|
+| `[a-z]`.**width**           | `Number`  |   Element width   | `80% of root image width`|
 | `[a-z]`.**originX**           | `String`  |   Horizontal origin of transformation of an element (one of "left", "right", "center")    | `center`|
 | `[a-z]`.**originY**           | `String`  |   Vertical origin of transformation of an object (one of "top", "bottom", "center")    | `center`|
 | `[a-z]`.**left**           | `Number`  |    Left position of an element. Note that by default it's relative to element center ( This can be changed by changing originX of the element).| `(root image width)/2`|
