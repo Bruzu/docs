@@ -83,7 +83,7 @@ Every Type of Element have these properties
 
 | Name   | Alias       | Type          | Description | Default value |
 |:---------|:-------------|:------------------|:------|:--------|
-| `[a-z]`.**type** | `[a-z]`.**t** | `String`  | Type of element ( `textbox`, `image`, `rect`, `circle`, `line`, `tringle`) | `textbox`( if `.text` exists ), `image`( if `.src` exists ) |
+| `[a-z]`.**type** | `[a-z]`.**tp** | `String`  | Type of element ( `textbox`, `image`, `rect`, `circle`, `line`, `tringle`) | `textbox`( if `.text` exists ), `image`( if `.src` exists ) |
 | `[a-z]`.**angle**  | `[a-z]`.**a**           | `Number`  | Angle of rotation of an element (in degrees) | `0`|
 | `[a-z]`.**color**   | `[a-z]`.**c**         | `String`  | Color of an element. takes css colors, (hax, rgb, rgba or name or color) | `black`|
 | `[a-z]`.**backgroundColor** | `[a-z]`.**bc**  | `String`  | Background color of an element. takes css colors, (hax, rgb, rgba or name or color) | `transparent`|
@@ -112,6 +112,7 @@ Textbox Element have these extra properties.
 
 | Name    | Alias      | Type          | Description | Default value |
 |:---------|:-------------|:------------------|:------|:--------|
+| `[a-z]`.**text**    | `[a-z]`.**t**        | `String`  | Content of the element | ` ` |
 | `[a-z]`.**textAlign**    | `[a-z]`.**ta**        | `String`  | Text alignment. Possible values: `left`, `center`, `right`, `justify`, `justify-left`, `justify-center` or `justify-right`. | `justify` |
 | `[a-z]`.**fontSize** | `[a-z]`.**fs**  | `Number`  |  Font size (in pixels). | `40` |
 | `[a-z]`.**fontFamily** | `[a-z]`.**ff**   | `String`  |   Font family name ( We support all the Google fonts) | `Times New Roman` |
