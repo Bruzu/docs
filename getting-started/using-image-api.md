@@ -96,7 +96,7 @@ Every Type of Element have these properties
 | `[a-z]`.**opacity**  | `[a-z]`.**o**          | `Number`  |    Opacity of an element   | `1`|
 | `[a-z]`.**scaleX**   | `[a-z]`.**sx**         | `Number`  |     Element scale factor (horizontal)    | `1`|
 | `[a-z]`.**scaleY**     | `[a-z]`.**sy**       | `Number`  |     Element scale factor (vertical)   | `1`|
-| `[a-z]`.**shadow**    | `[a-z]`.**s**         | `String`  |     Shadow color   | `transparent`|
+| `[a-z]`.**shadow**    | `[a-z]`.**sdw**         | `String`  |     Shadow color   | `transparent`|
 | `[a-z]`.**skewX**     | `[a-z]`.**skx**        | `Number`  |     Angle of skew on x axes of an element  (in degrees).   | `0`|
 | `[a-z]`.**skewY**    | `[a-z]`.**sky**        | `Number`  |     Angle of skew on y axes of an element (in degrees).   | `0`|
 | `[a-z]`.**stroke**    | `[a-z]`.**sc**        | `String`  |     Element border color   | `transparent`|
@@ -120,9 +120,9 @@ Textbox Element have these extra properties.
 | `[a-z]`.**fontWeight** | `[a-z]`.**fw**   | `Number|String`  |     Font weight (e.g. bold, normal, 400, 600, 800)   | `normal` |
 | `[a-z]`.**charSpacing**  | `[a-z]`.**cs** | `Number`  |      Additional space between characters expressed in thousands of em unit    | `0` |
 | `[a-z]`.**lineHeight**  | `[a-z]`.**lh**  | `Number`  |      Line height     | `1.16` |
-| `[a-z]`.**linethrough** | `[a-z]`.**linethrough**   | `Boolean`  |     Text decoration linethrough.      | `false` |
-| `[a-z]`.**overline**  | `[a-z]`.**overline**   | `Boolean`  |      Text decoration overline.       | `false` |
-| `[a-z]`.**underline** | `[a-z]`.**underline**   | `Boolean`  |      Text decoration underline.       | `false` |
+| `[a-z]`.**linethrough** | `[a-z]`.**lt**   | `Boolean`  |     Text decoration linethrough.      | `false` |
+| `[a-z]`.**overline**  | `[a-z]`.**ol**   | `Boolean`  |      Text decoration overline.       | `false` |
+| `[a-z]`.**underline** | `[a-z]`.**ul**   | `Boolean`  |      Text decoration underline.       | `false` |
 | `[a-z]`.**textBackgroundColor** | `[a-z]`.**tbc**   | `String`  |     Background color of text lines    | `transparent` |
 
 <div class="code-example flex-justify-between" markdown="1">
@@ -176,7 +176,7 @@ Rectangle Element have these extra properties.
 | Name        | Type          | Description | Default value |
 |:-------------|:------------------|:------|:--------|
 | `[a-z]`.**rx**   | `Number`  |    Horizontal border radius.  | `0` |
-| `[a-z]`.**cropY**   | `Number`  |   Vertical border radius.  | `0` |
+| `[a-z]`.**ry**   | `Number`  |   Vertical border radius.  | `0` |
 
 <div class="code-example flex-justify-between" markdown="1">
 
@@ -198,9 +198,9 @@ https://img.bruzu.com/
 You can define and element type text by using `[a-z].type=circle`.
 Rectangle Element have these extra properties.
 
-| Name        | Type          | Description | Default value |
-|:-------------|:------------------|:------|:--------|
-| `[a-z]`.**radius**   | `Number`  |    Radius of this circle.  | `0` |
+| Name      | Alias     | Type          | Description | Default value |
+|:----------|:-----------|:------------------|:------|:--------|
+| `[a-z]`.**radius** | `[a-z]`.**r**   | `Number`  |    Radius of this circle.  | `0` |
 
 
 <div class="code-example flex-justify-between" markdown="1">
@@ -255,10 +255,10 @@ https://img.bruzu.com/
 You can define and element type text by using `[a-z].type=triangle`.
 Triangle Element have these extra properties.
 
-| Name        | Type          | Description | Default value |
-|:-------------|:------------------|:------|:--------|
-| `[a-z]`.**height**   | `Number`  |     Height of triangle   | `100` |
-| `[a-z]`.**width**   | `Number`  |     Width of triangle    | `100` |
+| Name   | Alias        | Type          | Description | Default value |
+|:-----------|:-------------|:------------------|:------|:--------|
+| `[a-z]`.**height** | `[a-z]`.**h**   | `Number`  |     Height of triangle   | `100` |
+| `[a-z]`.**width**  | `[a-z]`.**w**   | `Number`  |     Width of triangle    | `100` |
 
 <div class="code-example flex-justify-between" markdown="1">
 
