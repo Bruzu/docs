@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Integrations
+title: Demos
 permalink: /demos/
 nav_order: 3
 expanded: true
