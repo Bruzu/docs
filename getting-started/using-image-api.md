@@ -96,7 +96,7 @@ Every Type of Element have these properties
 | `[a-z]`.**opacity**  | `[a-z]`.**o**          | `Number`  |    Opacity of an element   | `1`|
 | `[a-z]`.**scaleX**   | `[a-z]`.**sx**         | `Number`  |     Element scale factor (horizontal)    | `1`|
 | `[a-z]`.**scaleY**     | `[a-z]`.**sy**       | `Number`  |     Element scale factor (vertical)   | `1`|
-| `[a-z]`.**shadow**    | `[a-z]`.**sdw**         | `String`  |     Shadow color   | `transparent`|
+| `[a-z]`.**shadow**    | `[a-z]`.**sdw**         | `String`  |     Shadow of the element, `offset-x offset-y blur-radius color`   | `0px 0px 0px transparent`|
 | `[a-z]`.**skewX**     | `[a-z]`.**skx**        | `Number`  |     Angle of skew on x axes of an element  (in degrees).   | `0`|
 | `[a-z]`.**skewY**    | `[a-z]`.**sky**        | `Number`  |     Angle of skew on y axes of an element (in degrees).   | `0`|
 | `[a-z]`.**stroke**    | `[a-z]`.**sc**        | `String`  |     Element border color   | `transparent`|
