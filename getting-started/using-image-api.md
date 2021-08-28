@@ -3,7 +3,7 @@ layout: page
 title: Using the API
 permalink: /getting-started/using-the-api/
 parent: Getting started
-nav_order: 1
+nav_order: 2
 ---
 # Using the Bruzu Image API
 {: .no_toc }
@@ -51,7 +51,7 @@ The create image endpoint accepts the following parameters.
 | **width**  | **w**  | `Integer`  | The width of the image. Maximum `2000`. Default value is `500` |
 | **backgroundColor** | **bc**  | `String`  |  Background Color of the Image. Default is `none` ( transparent ) |
 | **backgroundImage** | **bi**  | `String`  | Background Image url. |
-| **backgroundImage.opacity** | **bi.o**  | | `Float`  | Opacity or the background image, between 0 and 1. Default value is 1|
+| **backgroundImage.opacity** | **bi.o**  | `Float`  | Opacity or the background image, between 0 and 1. Default value is 1|
 | **scale**  | **s**   | `Integer` | Set the scale of output image.  |
 | **download** | **d**   | `Integer` | Set `download=1` or `d=1` and the image will be served as a downloadable attachment. |
 
