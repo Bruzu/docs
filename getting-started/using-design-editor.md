@@ -2,8 +2,8 @@
 layout: page
 title: Using the Design Editor 
 permalink: /getting-started/using-design-editor/
-parent: Using the Design Editor
-nav_order: 2
+parent: Getting started
+nav_order: 1
 ---
 # Using the Design Editor
 {: .no_toc }
