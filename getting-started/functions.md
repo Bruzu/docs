@@ -2,9 +2,10 @@
 layout: page
 title: Bruzu functions
 permalink: /getting-started/functions/
-parent: Bruzu functions
-nav_order: 0
+parent: Getting started
+nav_order: 3
 ---
+
 # Bruzu functions
 {: .no_toc }
 {: .fs-9 }
