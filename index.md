@@ -61,7 +61,7 @@ https://img.bruzu.com/
 
 </div>
 
-[Live demo](https://bruzu.com/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Create a new design](https://design.bruzu.com/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Get an API Key](https://bruzu.com){: .btn .fs-5 .mb-4 .mb-md-0 }
 <hr>
 
