@@ -3,7 +3,7 @@ layout: page
 title: Using the API
 permalink: /getting-started/using-the-api/
 parent: Getting started
-nav_order: 2
+nav_order: 1
 ---
 # Using the Bruzu Image API
 {: .no_toc }
