@@ -16,13 +16,6 @@ Create reusable templates, using the Design Editor
 
 <hr>
 
-Table of contents
-{: .text-delta }
-- TOC
-{:toc}
-
-<hr>
-
 ## Design Editor
 
 Design Editor in a easy, Sketch-like tool with drag and drop, full typographic controls and more.
