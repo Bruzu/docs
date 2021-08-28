@@ -3,7 +3,7 @@ layout: page
 title: Bruzu functions
 permalink: /getting-started/functions/
 parent: Bruzu functions
-nav_order: 3
+nav_order: 0
 ---
 # Bruzu functions
 {: .no_toc }
