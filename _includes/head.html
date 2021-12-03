@@ -11,14 +11,7 @@
     {% endif %}
   {% endunless %}
 
-  <link rel="shortcut icon" href="{{ 'favicon.ico' | absolute_url }}" type="image/x-icon">
-
-  <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-default.css' | absolute_url }}">
- {% if site.search_enabled != false %}
-    <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"></script>
-  {% endif %}
-  <script type="text/javascript" src="{{ '/assets/js/just-the-docs.js' | relative_url }}"></script>
-
+ 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@bruzuHQ">
@@ -29,6 +22,14 @@
     <meta name="twitter:description" content="Dynamically generate Images with a URL string. ">
   {% endif %}
 -->
+   <link rel="shortcut icon" href="{{ 'favicon.ico' | absolute_url }}" type="image/x-icon">
+
+  <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-default.css' | absolute_url }}">
+ {% if site.search_enabled != false %}
+    <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"></script>
+  {% endif %}
+  <script type="text/javascript" src="{{ '/assets/js/just-the-docs.js' | relative_url }}"></script>
+
   <meta property="og:image" content="https://cdn.bruzu.com/0dda170dafc354849fc485ebda313fa4.png">
   <meta property="twitter:image" content="https://cdn.bruzu.com/0dda170dafc354849fc485ebda313fa4.png">
   <meta property="og:locale" content="en_US">
