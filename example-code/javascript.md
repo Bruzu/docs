@@ -16,7 +16,6 @@ This example uses the [axios package](https://www.npmjs.com/package/axios). Inst
 ```javascript
 const axios = require('axios'); 
 const fs = require('fs');
-var md5 = require('md5');
 
 // Replace YOUR_API_KEY and otherParameters etc with proper values
 
@@ -26,8 +25,6 @@ axios.get(apiURL, {responseType: "stream"} )
 .then(response => {  
     // Saving file to working directory  
     response.data.pipe(fs.createWriteStream("output.png"));  
-    // Generate the CND link, only works with valid API key
-    console.log(`https://cdn.bruzu.com/`+md5(apiURL)+`.png`);
 })  
     .catch(error => {  
     console.log(error);  
