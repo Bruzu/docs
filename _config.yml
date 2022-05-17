@@ -56,7 +56,7 @@ gh_edit_repository: "https://github.com/bruzu/docs" # the github URL for your re
 gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "tree"
 
-footer_content: "Bruzu.com <br> &copy; 2021 Bruzu.<style> .site-footer{ display:none; } </style>"
+footer_content: "Bruzu.com <br> &copy; 2022 Bruzu.<style> .site-footer{ display:none; } </style>"
 
 # Back to top link
 back_to_top: true
