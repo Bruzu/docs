@@ -4,16 +4,12 @@ title: Demos
 permalink: /demos/
 nav_order: 3
 expanded: true
-has_children: true
+has_children: false
 ---
 # Demos: Image Generation API
 
 You can find a couple of examples and use cases for the Bruzu Image Generation API below.
 {: .fs-4 .fw-300 }
-
-Table of contents {: .text-delta }
-
-TOC {:toc}
 
 ## Open Graph Image Generation
 
